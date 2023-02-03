@@ -1,17 +1,16 @@
-[![Docker Stars](https://img.shields.io/docker/stars/bandi13/gui-docker.svg?style=flat-square)](https://hub.docker.com/r/bandi13/gui-docker/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/bandi13/gui-docker.svg?style=flat-square)](https://hub.docker.com/r/bandi13/gui-docker/)
-[![](https://images.microbadger.com/badges/image/bandi13/gui-docker.svg)](https://microbadger.com/images/bandi13/gui-docker "Get your own image badge on microbadger.com")
-![Multi-Arch Docker](https://github.com/bandi13/gui-docker/workflows/Multi-Arch%20Docker/badge.svg)
+All credit goes to [bandi13](https://github.com/bandi13/gui-docker). I just forked and installed [FadeIn](https://www.fadeinpro.com/)
 
-[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoff.ee/bandi13)
+FadeIn will run in demo mode- you will need to buy a license to use.
 
-# GUI Docker
+# GUI Docker - FadeIn
 This is a container for running GUI applications completely inside a Docker container. You do not need to forward your running XAuth or allow Docker to draw onto your display. Nor do you need to use SSH to forward X11. This container exposes a VNC webclient to the host and therefore everything is contained within the container.
 
 The VNC server is on port 5900 and a webclient is on port 5901.
 
+Installed and launched at run is the FadeIn Screenwriting software. 
+
 Here is a screenshot:
-![Alt](https://raw.githubusercontent.com/bandi13/gui-docker/master/screenshot.png "Example screenshot")
+![Alt](https://raw.githubusercontent.com/jamiekohns/gui-docker-fadein/master/screenshot.png "Example screenshot")
 
 # To run
 This is based on Ubuntu 18.10 and installs TigerVNC for the VNC server, and uses noVNC for the HTML5-based webclient. This gets created as a multi-arch container which will run on ARMv7, ARM64 and of course x86_64.
