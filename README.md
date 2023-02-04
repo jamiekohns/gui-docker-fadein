@@ -1,6 +1,8 @@
 All credit goes to [bandi13](https://github.com/bandi13/gui-docker). I just forked and installed [FadeIn](https://www.fadeinpro.com/)
 
 FadeIn will run in demo mode- you will need to buy a license to use.
+## Stupid me
+FadeIn issues a custom binary tied to each license key, so the generic demo version CANNOT be registered
 
 # GUI Docker - FadeIn
 This is a container for running GUI applications completely inside a Docker container. You do not need to forward your running XAuth or allow Docker to draw onto your display. Nor do you need to use SSH to forward X11. This container exposes a VNC webclient to the host and therefore everything is contained within the container.
